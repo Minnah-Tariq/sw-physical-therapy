@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "881039320235",
+    "project_id": "physical-therapy-clinic-app",
+    "storage_bucket": "physical-therapy-clinic-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881039320235:android:84b7eeefa2510f73f9c3ee",
+        "android_client_info": {
+          "package_name": "com.mycompany.physicaltherapy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHxCbKM6eK0JAgNsQ3S4Cuze-ymT_b3YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
