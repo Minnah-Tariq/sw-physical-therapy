@@ -61,12 +61,14 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void dispose() {
+    // dispose controller
     authUserSub.cancel();
 
     super.dispose();
   }
 
   void setLocale(String language) {
+    // localization for multi language
     setState(() => _locale = createLocale(language));
   }
 
@@ -87,10 +89,12 @@ class _MyAppState extends State<MyApp> {
       ],
       locale: _locale,
       supportedLocales: const [Locale('en', '')],
+      // light theme
       theme: ThemeData(
         brightness: Brightness.light,
         scrollbarTheme: const ScrollbarThemeData(),
       ),
+      // dark theme
       darkTheme: ThemeData(
         brightness: Brightness.dark,
         scrollbarTheme: const ScrollbarThemeData(),
@@ -113,6 +117,7 @@ class NavBarPage extends StatefulWidget {
 
 /// This is the private State class that goes with NavBarPage.
 class _NavBarPageState extends State<NavBarPage> {
+  // navigation setup
   String _currentPageName = 'MainPage';
   late Widget? _currentPage;
 
